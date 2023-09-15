@@ -1,0 +1,20 @@
+{
+    // "Find out the location of streamlit:",
+    // "On macOS, use the 'which streamlit' command in the terminal.",
+    // "On Windows, use 'where streamlit' in Command Prompt or 'Get-Command streamlit' in PowerShell.",
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug streamlit",
+            "type": "python",
+            "request": "launch",
+            "program": "/Users/huanchensong/opt/anaconda3/envs/dev/bin/streamlit",
+            "args": [
+                "run",
+                "blockchain_part2.py"
+            ],
+            "console": "externalTerminal",
+            "justMyCode": true
+        }
+    ]
+}
